@@ -1,7 +1,7 @@
 {
   "name": "biojs-vis-feature",
   "description": "A Feature viewer",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "homepage": "https://github.com/ljgarcia/biojs-vis-feature",
   "author": {
     "name": "ljgarcia",
@@ -31,7 +31,6 @@
   "dependencies": {
     "biojs-events": "0.0.4",
     "biojs-io-newick": "0.0.4",
-    "canvg": "0.0.5",
     "jquery": "^2.1.1",
     "js-class": "0.0.2",
     "raphael": "^2.1.0"
