@@ -1,0 +1,6 @@
+{"js": ["http://code.jquery.com/jquery-migrate-1.2.1.js",
+    "../external/jquery.tooltip.js",
+	"../external/canvg.js",
+	"../external/rgbcolor.js"],
+"css": ["../external/jquery.tooltip.css"]}
+

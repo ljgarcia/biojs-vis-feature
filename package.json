@@ -1,7 +1,7 @@
 {
   "name": "biojs-vis-feature",
   "description": "A Feature viewer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/ljgarcia/biojs-vis-feature",
   "author": {
     "name": "ljgarcia",
@@ -23,38 +23,58 @@
   "main": "lib/biojs-vis-feature",
   "scripts": {
     "test": "gulp test",
-    "build-browser": "mkdirp build; browserify browser.js -o build/biojs-vis-feature.js",
+    "build-browser": "gulp build-browser",
     "build-browser-min": "gulp build-browser-gzip",
     "prepublish": "gulp",
-    "watch": "mkdirp build; watchify browser.js -o build/biojs-vis-feature.js -v"
+    "watch": "gulp watch"
   },
   "dependencies": {
     "biojs-events": "0.0.4",
-    "biojs-io-newick": "0.0.4",
     "jquery": "^2.1.1",
     "js-class": "0.0.2",
     "raphael": "^2.1.0"
   },
   "devDependencies": {
-    "browserify": "~4.2.0",
+    "biojs-sniper": "0.0.4",
+    "blanket": "^1.1.6",
+    "browserify": "^5.12.1",
     "chai": "^1.9.1",
+    "coveralls": "^2.11.1",
     "gulp": "^3.8.8",
-    "gulp-browserify": "^0.5.0",
+    "gulp-chmod": "^1.1.1",
+    "gulp-coveralls": "^0.1.3",
     "gulp-gzip": "0.0.8",
     "gulp-jshint": "^1.8.4",
     "gulp-mocha": "^1.0.0",
+    "gulp-mocha-phantomjs": "^0.5.0",
     "gulp-rename": "^1.2.0",
     "gulp-rimraf": "^0.1.0",
+    "gulp-streamify": "0.0.5",
     "gulp-uglify": "^1.0.1",
     "gulp-watch": "^1.0.2",
     "mkdirp": "^0.5.0",
     "mocha": "~1.20.1",
-    "uglify-js": "~2.4.15",
+    "vinyl-source-stream": "^1.0.0",
     "watchify": "^1.0.2"
   },
   "keywords": [
     "biojs",
     "visualization",
     "features"
-  ]
+  ],
+  "sniper": {
+    "js": [
+      "http://code.jquery.com/jquery-1.11.1.min.js",
+      "https://code.jquery.com/ui/1.11.0/jquery-ui.min.js",
+      "http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js",
+      "/build/viewer.js"
+    ],
+    "css": [
+      "https://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css"
+    ],
+    "snippets": [
+      "snippets"
+    ],
+    "first": "example"
+  }
 }
