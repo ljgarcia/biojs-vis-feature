@@ -9,6 +9,8 @@ fakeServer(function(data){
     showFeatureTooltipOnMouseOver: true,
   });
 
+  //instance=obj
+
   obj.onAll(function(eventName,d){
     console.log(eventName, d);
   });
