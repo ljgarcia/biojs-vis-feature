@@ -9,7 +9,7 @@ fakeServer(function(data){
     showFeatureTooltipOnMouseOver: true,
   });
 
-  //instance=obj
+  //@biojs-instance=obj
 
   obj.onAll(function(eventName,d){
     console.log(eventName, d);
@@ -86,4 +86,3 @@ function fakeServer(callback){
   };
   return callback(json);
 }
-
