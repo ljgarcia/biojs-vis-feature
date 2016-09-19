@@ -1,37 +1,3 @@
-# biojs-vis-feature
+This BioJS component now deprecated and is not longer maintained.
 
-[![Build Status](https://secure.travis-ci.org/ljgarcia/biojs-vis-feature.png?branch=master)](http://travis-ci.org/ljgarcia/biojs-vis-feature)
-[![NPM version](https://badge-me.herokuapp.com/api/npm/biojs-vis-feature.png)](http://badges.enytc.com/for/npm/biojs-vis-feature) 
-
-> A Feature viewer
-
-## Getting Started
-Install the module with: `npm install biojs-vis-feature`
-
-
-
-## Contributing
-
-Please submit all issues and pull requests to the [ljgarcia/biojs-vis-feature](http://github.com/ljgarcia/biojs-vis-feature) repository!
-
-## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/ljgarcia/biojs-vis-feature/issues).
-
-## License 
-
-
-This software is licensed under the Apache 2 license, quoted below.
-
-Copyright (c) 2014, ljgarcia
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License. You may obtain a copy of
-the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
-License for the specific language governing permissions and limitations under
-the License.
+A new protein feature viewer [ProtVista](https://github.com/ebi-uniprot/ProtVista) is offered by ebi-uniprot.
